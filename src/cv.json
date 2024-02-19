@@ -107,7 +107,7 @@
         "url": "https://www.frro.utn.edu.ar/contenido.php?cont=153&subc=4",
         "area": "Alemán",
         "studyType": "Certificado A1",
-        "startDate": "2023-04-01",
+        "startDate": "2023-03-01",
         "endDate": "2023-12-30",
         "score": "10",
         "courses": [
@@ -269,66 +269,67 @@
     }],
     "projects": [
       {
-        "name": "mars.codes",
+        "name": "Bio Analisis",
         "isActive": true,
-        "description": "Historia interactiva con retos de programación para viajar a Marte",
+        "description": "Sistema de gestión de un laboratorio agropecuario.",
         "highlights": [
-          "Elige tu propia aventura",
-          "En desarrollo"
+          "Análisis de Agua, Semillas y Suelos",
+          "Gestión de Usuarios"
         ],
-        "url": "https://mars.codes"
+        "url": "http://vps-2976265-x.dattaweb.com/login"
       },
       {
-        "name": "AdventJS",
+        "name": "Ferretería Marani",
         "isActive": true,
-        "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+        "description": "Sistema de gestión de una ferretería para la empresa Marani, tanto web como móvil.",
         "highlights": [
-          "+1 millón de visitas",
-          "Multidioma",
-          "JavaScript & TypeScript"
+          "Gestión de ventas, stock y usuarios",
+          "Catálogos en .pdf"
         ],
-        "url": "https://adventjs.dev"
+        "url": "https://marani-ferreteria.netlify.app"
       },
       {
-        "name": "Codember",
+        "name": "Aapresid Productores",
         "isActive": true,
-        "description": "Juego interactivo de programación con retos y secretos",
+        "description": "Gestión de campañas agrícolas sobre productores, campos, lotes, siembras, cosechas y aplicaciones.",
         "highlights": [
-          "+2000 usuarios activos",
-          "Retos para cualquier lenguaje"
+          "+15 usuarios activos",
+          "Importación y exportación de datos"
         ],
-        "url": "https://codember.dev"
+        "url": "http://vps-1387733-x.dattaweb.com:3002/login"
       },
       {
-        "name": "codi.link",
+        "name": "Tienda de juegos",
         "isActive": true,
-        "description": "Playground de código HTML, CSS y JavaScript para compartir",
+        "description": "Tienda de videojuegos online con carrito de compras, gestión de usuarios y gestión de videojuegos.",
         "highlights": [
-          "100k visitas al mes",
-          "Desarrollado por la comunidad"
+          "NodeJS",
+          "Angular",
+          "MySQL"
         ],
-        "url": "https://codi.link",
+        "url": "https://github.com/Luchoragusa/MachineStore-Front",
         "github": "https://github.com/midudev/codi.link"
       },
       {
-        "name": "Pruebas Técnicas",
+        "name": "Panel de Control de Usuario del GTA V",
         "isActive": true,
-        "description": "Lista de pruebas técnicas de empresas para practicar programación",
+        "description": "Panel de control de usuario para el servidor de GTA V de la comunidad UCP.",
         "highlights": [
-          "100% gratuito",
-          "+500 soluciones de la comunidad"
+          "Gestión de usuarios, roles y permisos",
+          "Sanciones y reportes"
         ],
-        "url": "https://pruebastecnicas.com",
-        "github": "https://github.com/midudev/pruebas-tecnicas"
+        "url": "https://github.com/Luchoragusa/UCP",
+        "github": "https://github.com/Luchoragusa/UCP"
       },
       {
-        "name": "miduConf",
-        "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+        "name": "Sistema de simulación de cola MM1",
+        "description": "Sistema de simulación de cola M/M/1, representado gráficamente en 3D mediante el software AnyLogic",
         "highlights": [
-          "+15k tickets repartidos",
-          "+50k espectadores en directo"
+          "Python",
+          "AnyLogic",
+          "Informes"
         ],
-        "url": "https://miduconf.com"
+        "url": "https://github.com/Luchoragusa/Simulacion/tree/main/TP-3/MM1"
       }
     ]
   }
