@@ -1,7 +1,67 @@
 ---
 import Section from "../Section.astro";
+
+import { education } from '@cv'
 ---
 
 <Section title="Educación">
+    <ul>
+        {
+            education.map(({ institution, area, startDate, endDate, score }) => {
+                const startYear = new Date(startDate).getFullYear()
+                const endYear = new Date(endDate).getFullYear() || 'Actualidad'
+                const startMonth = new Date(startDate).toLocaleString('default', { month: 'long' })
+                const endMonth = new Date(endDate).toLocaleString('default', { month: 'long' })
+                let year = `${startYear} - ${endYear}`
 
+                if (institution === "Alemán UTN FRRo" && startYear === endYear) {
+                    year = `${startMonth} ${startYear} - ${endMonth} ${endYear}`
+                }
+
+                return (
+                    <article>
+                        <header>
+                            <div>
+                                <h3>{institution}</h3>
+                                <h4>{area}</h4>
+                            </div>
+                            <time>{year}</time>
+                        </header>
+                        <p>Promedio: {score}</p>
+                    </article>
+                )
+            })
+        }
+    </ul>
+    </ul>
 </Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    article h3 {
+        font-weight: 500;
+        color: #111;
+    }
+
+    article h4 {
+        font-weight: 400;
+        color: #222;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px;
+    }
+
+    time {
+        color: #555;
+        font-size: 0.85rem;
+    }
+</style>

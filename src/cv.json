@@ -60,7 +60,7 @@
       {
         "institution": "Universidad Tecnológica Nacional - Facultad Regional Rosario",
         "url": "https://www.frro.utn.edu.ar",
-        "area": "Ingeniero de Sistemas de Información",
+        "area": "Ingeniería en Sistemas de Información",
         "studyType": "Bachelor",
         "startDate": "2019-03-01",
         "endDate": "2024-03-30",
@@ -85,6 +85,35 @@
           "Matemática",
           "Economía",
           "Administración"
+        ]
+      },
+      {
+        "institution": "Academia de inglés ALI",
+        "url": "https://alingles.com",
+        "area": "Inglés",
+        "studyType": "Certificado FIRST (B2) - Trinity College London",
+        "startDate": "2011-03-01",
+        "endDate": "2018-12-30",
+        "score": "8.0",
+        "courses": [
+          "Reading",
+          "Writing",
+          "Listening",
+          "Speaking"
+        ]
+      },
+      {
+        "institution": "Alemán UTN FRRo",
+        "url": "https://www.frro.utn.edu.ar/contenido.php?cont=153&subc=4",
+        "area": "Alemán",
+        "studyType": "Certificado A1",
+        "startDate": "2023-04-01",
+        "endDate": "2023-12-30",
+        "score": "10",
+        "courses": [
+          "Gramática",
+          "Vocabulario",
+          "Comprensión"
         ]
       }
     ],
