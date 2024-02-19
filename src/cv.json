@@ -137,17 +137,17 @@
         ]
       },
       {
-        "name": "JavaScript",
-        "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-        ]
-      },
-      {
         "name": "Tailwind",
         "level": "Avanzado",
         "keywords": [
           "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
         ]
       },
       {
