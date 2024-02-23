@@ -10,12 +10,16 @@ import { education } from '@cv'
             education.map(({ institution, area, startDate, endDate, score }) => {
                 const startYear = new Date(startDate).getFullYear()
                 const endYear = new Date(endDate).getFullYear() || 'Actualidad'
-                const startMonth = new Date(startDate).toLocaleString('default', { month: 'long' })
-                const endMonth = new Date(endDate).toLocaleString('default', { month: 'long' })
+                // const startMonth = new Date(startDate).toLocaleString('default', { month: 'long' })
+                // const endMonth = new Date(endDate).toLocaleString('default', { month: 'long' })
                 let year = `${startYear} - ${endYear}`
 
-                if (institution === "Alemán UTN FRRo" && startYear === endYear) {
-                    year = `${startMonth} ${startYear} - ${endMonth} ${endYear}`
+                // if (institution === "Alemán UTN FRRo" && startYear === endYear) {
+                //     year = `${startMonth} ${startYear} - ${endMonth} ${endYear}`
+                // }
+
+                if (institution === "First Certificate in English" || institution === "Alemán UTN FRRo") {
+                    year = `${endYear}`
                 }
 
                 return (
@@ -27,12 +31,11 @@ import { education } from '@cv'
                             </div>
                             <time>{year}</time>
                         </header>
-                        <p>Promedio: {score}</p>
+                        <p>Puntuación: {score}</p>
                     </article>
                 )
             })
         }
-    </ul>
     </ul>
 </Section>
 

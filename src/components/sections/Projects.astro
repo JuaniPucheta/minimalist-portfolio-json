@@ -1,5 +1,6 @@
 ---
 import Section from "../Section.astro";
+import GitHub from "@/icons/GitHub.astro";
 
 import { projects } from "@cv"
 ---
@@ -7,7 +8,7 @@ import { projects } from "@cv"
 <Section title="Proyectos">
     <ul>
         {
-            projects.map(({ url, description, highlights, name, isActive }) => {
+            projects.map(({ url, description, highlights, name, isActive, github }) => {
                 return(
                     <li>
                         <article>
@@ -19,6 +20,16 @@ import { projects } from "@cv"
                                     {
                                         isActive && <span>&bull;</span>
                                     }
+                                    {github && (
+                                        <a
+                                            class="github-code-link"
+                                            href={github}
+                                            target="_blank"
+                                            title={`Ver código fuente del proyecto ${name}`}
+                                        >
+                                            <GitHub />
+                                        </a>
+                                    )}
                                 </h3>
                                 <p>{description}</p>
                             </header>

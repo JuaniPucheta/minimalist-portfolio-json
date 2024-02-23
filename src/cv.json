@@ -42,7 +42,8 @@
         "summary": "Líder de un equipo de desarrollo de software para la creación de sitios web. Trabajé en la definición del design system de la empresa e individual de cada proyecto, en la priorización del backlog y en la definición de los criterios de aceptación. Realicé el seguimiento de los proyectos y la comunicación con los clientes.",
         "highlights": [
           "Started the company"
-        ]
+        ],
+        "tipo": "Remoto parcial"
       }
     ],
     "volunteer": [{
@@ -88,13 +89,13 @@
         ]
       },
       {
-        "institution": "Academia de inglés ALI",
+        "institution": "First Certificate in English",
         "url": "https://alingles.com",
         "area": "Inglés",
         "studyType": "Certificado FIRST (B2) - Trinity College London",
         "startDate": "2011-03-01",
         "endDate": "2018-12-30",
-        "score": "8.0",
+        "score": "B2",
         "courses": [
           "Reading",
           "Writing",
@@ -105,7 +106,7 @@
       {
         "institution": "Alemán UTN FRRo",
         "url": "https://www.frro.utn.edu.ar/contenido.php?cont=153&subc=4",
-        "area": "Alemán",
+        "area": "Deutsch A1",
         "studyType": "Certificado A1",
         "startDate": "2023-03-01",
         "endDate": "2023-12-30",
@@ -329,7 +330,8 @@
           "AnyLogic",
           "Informes"
         ],
-        "url": "https://github.com/Luchoragusa/Simulacion/tree/main/TP-3/MM1"
+        "url": "https://github.com/Luchoragusa/Simulacion/tree/main/TP-3/MM1",
+        "github": "https://github.com/Luchoragusa/Simulacion/tree/main/TP-3/MM1"
       }
     ]
   }

@@ -7,14 +7,16 @@ import { work } from "@cv"
 <Section title="Experiencia laboral">
     <ul>
         {
-            work.map(({name, startDate, endDate, position, summary, highlights}) => {
+            work.map(({name, startDate, endDate, position, summary, tipo}) => {
                 const endYear = endDate ? new Date(endDate).getFullYear() : "Actualmente"
                 return(
                     <li>
                         <article>
                             <header>
                                 <div>
-                                    <h3>{name}</h3>
+                                    <h3>
+                                        {name} - <span>{ tipo }</span>
+                                    </h3>
                                     <p>{position}</p>
                                 </div>
                                 <time>
@@ -60,5 +62,14 @@ import { work } from "@cv"
     time {
         color: #555;
         font-size: 0.85rem;
+    }
+
+    span {
+        border-radius: 6px;
+        background-color: #eee;
+        color: black;
+        font-size: .8rem;
+        font-weight: 500;
+        padding: 0.2rem 0.5rem;
     }
 </style>
