@@ -324,7 +324,7 @@
       },
       {
         "name": "Sistema de simulación de cola MM1",
-        "description": "Sistema de simulación de cola M/M/1, representado gráficamente en 3D mediante el software AnyLogic",
+        "description": "Simulación de cola M/M/1, representado gráficamente en 3D con software AnyLogic",
         "highlights": [
           "Python",
           "AnyLogic",

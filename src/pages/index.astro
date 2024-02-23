@@ -15,7 +15,7 @@ const { name, label } = basics
 ---
 
 <Layout title={`Portafolio de ${name} - ${label}`}>
-	<main>
+	<main class="showUp">
 		<Hero />
 		<About />
 		<Experience />
@@ -32,5 +32,10 @@ const { name, label } = basics
 		padding: 4rem;
 		margin: auto;
 		widows: 100%;
+	}
+
+	.showUp {
+		opacity: 0;
+        animation: fadeIn 1s forwards;
 	}
 </style>

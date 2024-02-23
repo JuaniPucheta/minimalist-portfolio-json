@@ -38,7 +38,7 @@ import { projects } from "@cv"
                                 {
                                     highlights.map((highlight) => {
                                         return(
-                                            <span>{highlight}</span>
+                                            <span class="mostrar">{highlight}</span>
                                         )
                                     })
                                 }
@@ -71,6 +71,16 @@ import { projects } from "@cv"
         flex-direction: column;
         padding: 16px;
         height: 100%;
+
+        transition: filter 0.2s ease-in-out;
+        filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.1));
+        
+        background-color: #fff;
+    }
+
+    article:hover,
+    article:focus-visible {
+        filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.2));
     }
 
     article header {
@@ -82,7 +92,6 @@ import { projects } from "@cv"
         color: #111;
         font-size: 1.1rem;
         font-weight: 500;
-
     }
 
     article h3 span {
@@ -97,8 +106,8 @@ import { projects } from "@cv"
         text-decoration: underline;
     }
 
-    articlep {
-        font-size: 0.75rem;
+    article p {
+        font-size: 0.8rem;
         line-height: 1.2rem;
         margin-bottom: 4px;
     }
