@@ -6,7 +6,7 @@
       "email": "juanignapucheta@gmail.com",
       "phone": "+5493413204408",
       "url": "https://github.com/JuaniPucheta",
-      "summary": "Joven ingeniero en sistemas de información, con experiencia en desarrollo UX/UI y en liderazgo de equipos. Actualmente me encuentro en la búsqueda de nuevas oportunidades para seguir creciendo profesionalmente.",
+      "summary": "Joven ingeniero en sistemas de información (pendiente presentar Proyecto Final), con conocimientos en desarrollo web, liderazgo de equipos, gestión de procesos y análisis de datos. Siempre me encuentro en la búsqueda de nuevas oportunidades para seguir creciendo personal y profesionalmente.",
       "location": {
         "address": "",
         "postalCode": "2000",
@@ -34,11 +34,23 @@
     },
     "work": [
       {
+        "name": "Global Empresaria Consultores",
+        "position": "Encargado de I.T.",
+        "url": "https://globalempresaria.com/app/",
+        "startDate": "2024",
+        "endDate": null,
+        "summary": "Líder de I.T. gestionando procesos, realizando data analysis y data warehouse, enfocado a la optimización de sistemas. Actualmente trabajo en la definición y puesta en producción de proyectos teconológicos para personal propio empresarial y clientes externos.",
+        "highlights": [
+          "Started the company"
+        ],
+        "tipo": "Presencial full-time"
+      },
+      {
         "name": "Tribal Consulting",
         "position": "Product Owner",
         "url": "http://tribalconsulting.com.ar",
         "startDate": "2022",
-        "endDate": null,
+        "endDate": "01-01-2024",
         "summary": "Líder de un equipo de desarrollo de software para la creación de sitios web. Trabajé en la definición del design system de la empresa e individual de cada proyecto, en la priorización del backlog y en la definición de los criterios de aceptación. Realicé el seguimiento de los proyectos y la comunicación con los clientes.",
         "highlights": [
           "Started the company"
@@ -202,13 +214,6 @@
         ]
       },
       {
-        "name": "MongoDB",
-        "level": "Intermedio",
-        "keywords": [
-          "Bases de Datos", "NoSQL", "Almacenamiento de Datos", "Backend"
-        ]
-      },
-      {
         "name": "Git",
         "level": "Avanzado",
         "keywords": [
@@ -242,6 +247,13 @@
         "keywords": [
           "Desarrollo Web", "Frontend", "JavaScript Framework", "UI"
         ]
+      },
+      {
+        "name": "Anylogic",
+        "level": "Intermedio",
+        "keywords": [
+          "Simulación", "Modelado", "Procesos"
+        ]
       }
     ],
     "languages": [
@@ -270,6 +282,53 @@
     }],
     "projects": [
       {
+        "name": "JavaScript Projects",
+        "isActive": true,
+        "description": "Proyectos de JavaScript estáticos para web, simples y fáciles de entender.",
+        "highlights": [
+          "HTML",
+          "CSS",
+          "JS",
+          "Astro 3"
+        ],
+        "url": "https://github.com/JuaniPucheta/Javascript-projects"
+      },
+      {
+        "name": "Spotify Clon",
+        "isActive": true,
+        "description": "Proyecto de un clon de Spotify.",
+        "highlights": [
+          "Astro 3",
+          "React JS",
+          "Svelte",
+          "TailwindCSS"
+        ],
+        "url": "https://github.com/JuaniPucheta/Spotify-Clone",
+        "github": "https://github.com/JuaniPucheta/Spotify-Clone"
+      },
+      {
+        "name": "Tienda de juegos",
+        "isActive": true,
+        "description": "Tienda de videojuegos online con carrito de compras, gestión de usuarios y gestión de videojuegos.",
+        "highlights": [
+          "NodeJS",
+          "Angular",
+          "MySQL"
+        ],
+        "url": "https://github.com/Luchoragusa/MachineStore-Front",
+        "github": "https://github.com/midudev/codi.link"
+      },
+      {
+        "name": "Sistema de simulación de cola MM1",
+        "description": "Simulación de cola M/M/1, representado gráficamente en 3D con software AnyLogic",
+        "highlights": [
+          "Python",
+          "AnyLogic"
+        ],
+        "url": "https://github.com/Luchoragusa/Simulacion/tree/main/TP-3/MM1",
+        "github": "https://github.com/Luchoragusa/Simulacion/tree/main/TP-3/MM1"
+      },
+      {
         "name": "Bio Analisis",
         "isActive": true,
         "description": "Sistema de gestión de un laboratorio agropecuario.",
@@ -286,52 +345,8 @@
         "highlights": [
           "Gestión de ventas, stock y usuarios",
           "Catálogos en .pdf"
-        ],
+          ],
         "url": "https://marani-ferreteria.netlify.app"
-      },
-      {
-        "name": "Aapresid Productores",
-        "isActive": true,
-        "description": "Gestión de campañas agrícolas sobre productores, campos, lotes, siembras, cosechas y aplicaciones.",
-        "highlights": [
-          "+15 usuarios activos",
-          "Importación y exportación de datos"
-        ],
-        "url": "http://vps-1387733-x.dattaweb.com:3002/login"
-      },
-      {
-        "name": "Tienda de juegos",
-        "isActive": true,
-        "description": "Tienda de videojuegos online con carrito de compras, gestión de usuarios y gestión de videojuegos.",
-        "highlights": [
-          "NodeJS",
-          "Angular",
-          "MySQL"
-        ],
-        "url": "https://github.com/Luchoragusa/MachineStore-Front",
-        "github": "https://github.com/midudev/codi.link"
-      },
-      {
-        "name": "Panel de Control de Usuario del GTA V",
-        "isActive": true,
-        "description": "Panel de control de usuario para el servidor de GTA V de la comunidad UCP.",
-        "highlights": [
-          "Gestión de usuarios, roles y permisos",
-          "Sanciones y reportes"
-        ],
-        "url": "https://github.com/Luchoragusa/UCP",
-        "github": "https://github.com/Luchoragusa/UCP"
-      },
-      {
-        "name": "Sistema de simulación de cola MM1",
-        "description": "Simulación de cola M/M/1, representado gráficamente en 3D con software AnyLogic",
-        "highlights": [
-          "Python",
-          "AnyLogic",
-          "Informes"
-        ],
-        "url": "https://github.com/Luchoragusa/Simulacion/tree/main/TP-3/MM1",
-        "github": "https://github.com/Luchoragusa/Simulacion/tree/main/TP-3/MM1"
       }
     ]
   }
