@@ -283,8 +283,19 @@
         "github": "https://github.com/JuaniPucheta/Spotify-Clone"
       },
       {
-        "name": "Spotify Clon",
+        "name": "Inmobiliaria",
         "isActive": true,
+        "description": "Sistema web de compra, venta y alquiler de viviendas, con panel administrador",
+        "highlights": [
+          "NodeJS",
+          "ReactTS",
+          "MySQL"
+          ],
+        "url": "https://admcentro.com.ar/",
+        "github": "https://github.com/JLJ-Tech/0-Ivana-front"
+      },
+      {
+        "name": "Spotify Clon",
         "description": "Proyecto de un clon de Spotify.",
         "highlights": [
           "Astro 3",
@@ -319,7 +330,6 @@
       },
       {
         "name": "Proyecto ADN-BNS",
-        "isActive": true,
         "description": "Aplicación web que muestra posteos con imágenes y comentarios, propuesto por un curso del BNS de NodeJS y ReactJS",
         "highlights": [
           "NodeJS",
@@ -327,18 +337,6 @@
           "MongoDB"
         ],
         "url": "https://github.com/JuaniPucheta/BNSProyectoFinal"
-      },
-      {
-        "name": "Inmobiliaria",
-        "isActive": true,
-        "description": "Sistema web de compra, venta y alquiler de viviendas, con panel administrador",
-        "highlights": [
-          "NodeJS",
-          "ReactTS",
-          "MySQL"
-          ],
-        "url": "https://admcentro.com.ar/",
-        "github": "https://github.com/JLJ-Tech/0-Ivana-front"
       }
     ]
   }
