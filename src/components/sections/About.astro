@@ -2,9 +2,11 @@
 import Section from "../Section.astro";
 
 import { basics } from "@cv"
-const { summary } = basics
+const { summary, technologies } = basics
 ---
 
 <Section title="Sobre mí 😁">
     <p>{summary}</p>
+    <br />
+    <p>{technologies}</p>
 </Section>

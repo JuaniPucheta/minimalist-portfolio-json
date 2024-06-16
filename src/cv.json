@@ -6,7 +6,8 @@
       "email": "juanignapucheta@gmail.com",
       "phone": "+5493413204408",
       "url": "https://github.com/JuaniPucheta",
-      "summary": "Joven ingeniero en sistemas de información (pendiente presentar Proyecto Final), con conocimientos en desarrollo web, liderazgo de equipos, gestión de procesos y análisis de datos. Siempre me encuentro en la búsqueda de nuevas oportunidades para seguir creciendo personal y profesionalmente.",
+      "summary": "Joven ingeniero en sistemas de información, con conocimientos en desarrollo web, liderazgo de equipos, gestión de procesos y análisis de datos. Siempre me encuentro en la búsqueda de nuevas oportunidades para seguir creciendo personal y profesionalmente.",
+      "technologies": "Siempre me interesó sobre todo el desarrollo frontend, he trabajado con ReactJS y Typescript, Angular y Vue. También tengo experiencia en desarrollo backend con NodeJS y MySQL, podés ver proyectos en los que he trabajado y participado en mi GitHub personal 🤓",
       "location": {
         "address": "",
         "postalCode": "2000",
@@ -291,7 +292,8 @@
           "JS",
           "Astro 3"
         ],
-        "url": "https://github.com/JuaniPucheta/Javascript-projects"
+        "url": "https://jsprojects-jip.netlify.app",
+        "github": "https://github.com/JuaniPucheta/Spotify-Clone"
       },
       {
         "name": "Spotify Clon",
@@ -329,24 +331,27 @@
         "github": "https://github.com/Luchoragusa/Simulacion/tree/main/TP-3/MM1"
       },
       {
-        "name": "Bio Analisis",
+        "name": "Proyecto ADN-BNS",
         "isActive": true,
-        "description": "Sistema de gestión de un laboratorio agropecuario.",
+        "description": "Aplicación web que muestra posteos con imágenes y comentarios, propuesto por un curso del BNS de NodeJS y ReactJS",
         "highlights": [
-          "Análisis de Agua, Semillas y Suelos",
-          "Gestión de Usuarios"
+          "NodeJS",
+          "ReactJS",
+          "MongoDB"
         ],
-        "url": "http://vps-2976265-x.dattaweb.com/login"
+        "url": "https://github.com/JuaniPucheta/BNSProyectoFinal"
       },
       {
-        "name": "Ferretería Marani",
+        "name": "Inmobiliaria",
         "isActive": true,
-        "description": "Sistema de gestión de una ferretería para la empresa Marani, tanto web como móvil.",
+        "description": "Sistema web de compra, venta y alquiler de viviendas, con panel administrador",
         "highlights": [
-          "Gestión de ventas, stock y usuarios",
-          "Catálogos en .pdf"
+          "NodeJS",
+          "ReactTS",
+          "MySQL"
           ],
-        "url": "https://marani-ferreteria.netlify.app"
+        "url": "https://admcentro.com.ar/",
+        "github": "https://github.com/JLJ-Tech/0-Ivana-front"
       }
     ]
   }
