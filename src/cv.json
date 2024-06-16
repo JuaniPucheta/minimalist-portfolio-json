@@ -168,95 +168,82 @@
       {
         "name": "HTML",
         "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend"
-        ]
+        "keywords": ["Desarrollo Web", "Frontend"],
+        "category": "Frontend"
       },
       {
         "name": "CSS",
         "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Diseño Responsive"
-        ]
+        "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"],
+        "category": "Frontend"
       },
       {
         "name": "Tailwind",
         "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-        ]
+        "keywords": ["Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"],
+        "category": "Frontend"
       },
       {
         "name": "JavaScript",
         "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-        ]
+        "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"],
+        "category": "Backend"
       },
       {
         "name": "TypeScript",
         "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-        ]
+        "keywords": ["Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"],
+        "category": "Frontend"
       },
       {
         "name": "Node",
         "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-        ]
+        "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"],
+        "category": "Backend"
       },
       {
         "name": "MySQL",
         "level": "Avanzado",
-        "keywords": [
-          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-        ]
+        "keywords": ["Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"],
+        "category": "Bases de Datos"
       },
       {
         "name": "Git",
         "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
-        ]
+        "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"],
+        "category": "Backend"
       },
       {
         "name": "GitHub",
         "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-        ]
+        "keywords": ["Control de Versiones", "Colaboración", "Código Fuente", "Git"],
+        "category": "Backend"
       },
       {
         "name": "React",
         "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-        ]
+        "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"],
+        "category": "Frontend"
       },
       {
         "name": "Angular",
         "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Framework", "UI"
-        ]
+        "keywords": ["Desarrollo Web", "Frontend", "JavaScript Framework", "UI"],
+        "category": "Frontend"
       },
       {
         "name": "Astro",
         "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Framework", "UI"
-        ]
+        "keywords": ["Desarrollo Web", "Frontend", "JavaScript Framework", "UI"],
+        "category": "Frontend"
       },
       {
         "name": "Anylogic",
         "level": "Intermedio",
-        "keywords": [
-          "Simulación", "Modelado", "Procesos"
-        ]
+        "keywords": ["Simulación", "Modelado", "Procesos"],
+        "category": "Backend"
       }
-    ],
+    ],    
     "languages": [
       {
         "language": "Español",

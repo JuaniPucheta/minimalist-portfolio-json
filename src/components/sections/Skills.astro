@@ -1,22 +1,24 @@
 ---
 import Section from "../Section.astro";
 
-import HTML from "@/icons/html.astro"
-import CSS from "@/icons/css.astro"
-import JavaScript from "@/icons/javascript.astro"
-import TypeScript from "@/icons/type.astro"
-import React from "@/icons/react.astro"
-import Node from "@/icons/node.astro"
-import MySQL from "@/icons/sql.astro"
-import Git from "@/icons/git.astro"
-import GitHub from "@/icons/GitHub.astro"
-import Tailwind from "@/icons/tailwind.astro"
-import Anylogic from "@/icons/anylogic.astro"
-import Aastro from "@/icons/aastro.astro"
-import Angular from "@/icons/angular.astro"
+// Importar los iconos
+import HTML from "@/icons/html.astro";
+import CSS from "@/icons/css.astro";
+import JavaScript from "@/icons/javascript.astro";
+import TypeScript from "@/icons/type.astro";
+import React from "@/icons/react.astro";
+import Node from "@/icons/node.astro";
+import MySQL from "@/icons/sql.astro";
+import Git from "@/icons/git.astro";
+import GitHub from "@/icons/GitHub.astro";
+import Tailwind from "@/icons/tailwind.astro";
+import Anylogic from "@/icons/anylogic.astro";
+import Aastro from "@/icons/aastro.astro";
+import Angular from "@/icons/angular.astro";
 
-import { skills } from "@cv"
+import { skills } from "@cv";
 
+// Definir los íconos asociados a cada habilidad
 const SKILLS_ICONS: Record<string, any> = {
     "HTML": HTML,
     "CSS": CSS,
@@ -29,25 +31,43 @@ const SKILLS_ICONS: Record<string, any> = {
     "GitHub": GitHub,
     "Tailwind": Tailwind,
     "Anylogic": Anylogic,
-    "Aastro": Aastro,
+    "Astro": Aastro,
     "Angular": Angular
+};
+
+interface Skill {
+    category: string;
+    name: string;
 }
+
+// Categorizar las habilidades
+const categorizedSkills = skills.reduce((acc: Record<string, Skill[]>, skill: Skill) => {
+    const category = skill.category || "Other";
+    if (!acc[category]) {
+        acc[category] = [];
+    }
+    acc[category].push(skill);
+    return acc;
+}, {});
 ---
 
 <Section title="Habilidades">
-    <ul>
-        {
-            skills.map(({ name }) => {
-                const Icon = SKILLS_ICONS[name]
-
-                return (
-                    <li class="mostrar">
-                        {Icon && <Icon />} <span>{name}</span>
-                    </li>
-                )
-            })
-        }
-    </ul>
+    <!-- Mapear las categorías y mostrar las habilidades agrupadas -->
+    {Object.entries(categorizedSkills).map(([category, skills]) => (
+        <div class="category">
+            <h2>{category}</h2>
+            <ul>
+                {skills.map(({ name }) => {
+                    const Icon = SKILLS_ICONS[name];
+                    return (
+                        <li>
+                            {Icon && <Icon />} <span>{name}</span>
+                        </li>
+                    );
+                })}
+            </ul>
+        </div>
+    ))}
 </Section>
 
 <style>
@@ -68,5 +88,14 @@ const SKILLS_ICONS: Record<string, any> = {
         gap: 4px;
         align-items: center;
     }
-</style>
 
+    .category {
+        margin-bottom: 24px; /* Espacio entre categorías */
+    }
+
+    .category h2 {
+        font-size: 1.5rem;
+        color: #000000;
+        margin-bottom: 12px;
+    }
+</style>
