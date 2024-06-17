@@ -242,6 +242,24 @@
         "level": "Intermedio",
         "keywords": ["Simulación", "Modelado", "Procesos"],
         "category": "Backend"
+      },
+      {
+        "name": "Axure RP",
+        "level": "Intermedio",
+        "keywords": ["Prototipado", "Diseño", "Interfaz de Usuario"],
+        "category": "UX/UI"
+      },
+      {
+        "name": "Canva",
+        "level": "Avanzado",
+        "keywords": ["Diseño", "Gráfico", "Edición"],
+        "category": "UX/UI"
+      },
+      {
+        "name": "Miro",
+        "level": "Avanzado",
+        "keywords": ["Diseño", "Gráfico", "Edición"],
+        "category": "UX/UI"
       }
     ],    
     "languages": [
