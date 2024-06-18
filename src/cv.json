@@ -260,6 +260,12 @@
         "level": "Avanzado",
         "keywords": ["Diseño", "Gráfico", "Edición"],
         "category": "UX/UI"
+      },
+      {
+        "name": "Jira",
+        "level": "Avanzado",
+        "keywords": ["Gestión de Proyectos", "Desarrollo", "Software"],
+        "category": "UX/UI"
       }
     ],    
     "languages": [
@@ -355,6 +361,36 @@
           "MongoDB"
         ],
         "url": "https://github.com/JuaniPucheta/BNSProyectoFinal"
+      },
+      {
+        "name": "Bio Analisis",
+        "isActive": true,
+        "description": "Sistema de gestión de un laboratorio agropecuario.",
+        "highlights": [
+          "Análisis de Agua, Semillas y Suelos",
+          "Gestión de Usuarios"
+        ],
+        "url": "http://vps-2976265-x.dattaweb.com/login"
+      },
+      {
+        "name": "Ferretería Marani",
+        "isActive": true,
+        "description": "Sistema de gestión de una ferretería para la empresa Marani, tanto web como móvil.",
+        "highlights": [
+          "Gestión de ventas, stock y usuarios",
+          "Catálogos en .pdf"
+          ],
+        "url": "https://marani-ferreteria.netlify.app"
+      },
+      {
+        "name": "Aapresid Productores",
+        "isActive": true,
+        "description": "Gestión de campañas agrícolas sobre productores, campos, lotes, siembras, cosechas y aplicaciones.",
+        "highlights": [
+          "+15 usuarios activos",
+          "Importación y exportación de datos"
+        ],
+        "url": "http://vps-1387733-x.dattaweb.com:3002/login"
       }
     ]
   }
