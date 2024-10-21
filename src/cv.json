@@ -36,7 +36,7 @@
     "work": [
       {
         "name": "Global Empresaria Consultores",
-        "position": "Encargado de I.T.",
+        "position": "Referente I.T.",
         "url": "https://globalempresaria.com/app/",
         "startDate": "2024",
         "endDate": null,
@@ -85,20 +85,6 @@
           "Redes y Comunicaciones",
           "Sistemas Operativos",
           "Programación"
-        ]
-      },
-      {
-        "institution": "Escuelas Pías 8007, Colegio Cristo Rey",
-        "url": "https://www.colegiocristorey.edu.ar",
-        "area": "Bachiller en Economía y Administración",
-        "studyType": "High School",
-        "startDate": "2014-03-01",
-        "endDate": "2018-12-30",
-        "score": "8.0",
-        "courses": [
-          "Matemática",
-          "Economía",
-          "Administración"
         ]
       },
       {
@@ -211,13 +197,13 @@
         "name": "Git",
         "level": "Avanzado",
         "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"],
-        "category": "Backend"
+        "category": "Resources"
       },
       {
         "name": "GitHub",
         "level": "Avanzado",
         "keywords": ["Control de Versiones", "Colaboración", "Código Fuente", "Git"],
-        "category": "Backend"
+        "category": "Resources"
       },
       {
         "name": "React",
@@ -256,16 +242,22 @@
         "category": "UX/UI"
       },
       {
-        "name": "Miro",
+        "name": "Jira",
         "level": "Avanzado",
-        "keywords": ["Diseño", "Gráfico", "Edición"],
+        "keywords": ["Gestión de Proyectos", "Desarrollo", "Software"],
         "category": "UX/UI"
       },
       {
         "name": "Jira",
         "level": "Avanzado",
         "keywords": ["Gestión de Proyectos", "Desarrollo", "Software"],
-        "category": "UX/UI"
+        "category": "Resources"
+      },
+      {
+        "name": "Miro",
+        "level": "Avanzado",
+        "keywords": ["Diseño", "Gráfico", "Edición"],
+        "category": "Resources"
       }
     ],    
     "languages": [
